@@ -1,0 +1,38 @@
+{
+  "name": "trilingual-kids-vocabulary",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "audio:generate": "tsx scripts/generate-audio.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/nunito": "^5.2.6",
+    "lucide-react": "^0.468.0",
+    "next": "15.5.28",
+    "next-persian-fonts": "^1.5.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.7",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.5.28",
+    "postcss": "^8.5.6",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "overrides": {
+    "postcss": "$postcss"
+  }
+}
